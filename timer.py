@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 from playsound import playsound
 # from os import system, if playsound doesn't work use os.system bash script. EX. afplay
