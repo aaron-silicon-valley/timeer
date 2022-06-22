@@ -1,5 +1,5 @@
 #!/bin/sh
 
 
-python /Users/aaron/PycharmProjects/Timeer/timer.py
+python /path/to/python/file/timer.py
 
