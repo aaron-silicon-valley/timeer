@@ -6,7 +6,7 @@ from time import sleep
 
 def get_timer():
     period_of_time = int(input("enter amount in minutes : "))
-    min_time = period_of_time
+    min_time = period_of_time*60
     print(min_time)
     if type(period_of_time) != int:
         print("please use intergers(numbers): ")
@@ -19,7 +19,7 @@ def timer_set():
     set_period = sleep(time)
     pa = "/path/to/file/.m4a" #make sure to change this
     playsound(pa)
-    print(f'Hi, {time}')
+    print(f'Time elapsed, {time}')
 
 
 if __name__ == '__main__':
